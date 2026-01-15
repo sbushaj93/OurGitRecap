@@ -1,7 +1,5 @@
 package com.neotech.lesson01;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 
 public class LaunchChromeBrowser {
 
@@ -13,10 +11,10 @@ public class LaunchChromeBrowser {
 		//If we want to test anything in a web application, then we will follow these steps: 
 		 
 		//1. Open the browser
-		WebDriver driver = new ChromeDriver();
+//		WebDriver driver = new ChromeDriver();
 		
 		//2. Go to the url 
-		driver.get("https://www.neotechacademy.com/");
+//		driver.get("https://www.neotechacademy.com/");
 		
 		
 		//3. Perform the test steps 
@@ -29,7 +27,7 @@ public class LaunchChromeBrowser {
 		Thread.sleep(5000); //pause the execution for 5 seconds at this line
 		
 		//4. Quit the browser
-		driver.quit();
+//		driver.quit();
 		
 		
 		
