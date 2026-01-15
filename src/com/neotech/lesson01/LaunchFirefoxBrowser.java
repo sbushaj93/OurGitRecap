@@ -19,7 +19,10 @@ public class LaunchFirefoxBrowser {
 		//we can pause the execution just to see that we actually went to the URL 
 		Thread.sleep(2000);
 		
+		// Test 2 :)
 		
+		
+		// Test 3 :)
 		//3. This is where we would perform tests (based on the documentation)
 		
 		//Let us assume that out test is: we want to get the current URL and we want to check if it is https://www.neotechacademy.com/
