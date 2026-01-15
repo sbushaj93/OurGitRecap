@@ -1,7 +1,5 @@
 package com.neotech.lesson01;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class LaunchFirefoxBrowser {
 
@@ -12,11 +10,11 @@ public class LaunchFirefoxBrowser {
 		
 		
 		//1. Open the browser
-		WebDriver driver = new FirefoxDriver();
+	//	WebDriver driver = new FirefoxDriver();
 		
 		
 		//2. Go to the url 
-		driver.get("https://www.neotechacademy.com/");
+//		driver.get("https://www.neotechacademy.com/");
 		
 		//we can pause the execution just to see that we actually went to the URL 
 		Thread.sleep(2000);
@@ -27,25 +25,25 @@ public class LaunchFirefoxBrowser {
 		//Let us assume that out test is: we want to get the current URL and we want to check if it is https://www.neotechacademy.com/
 		
 		
-		String actualUrl = driver.getCurrentUrl();
+//		String actualUrl = driver.getCurrentUrl();
 		String expectedUrl = "https://www.neotechacademy.com/";
 		
 		
-		if (actualUrl.equals(expectedUrl))
-		{
-			System.out.println("Page Title: " + driver.getTitle());
-		}
-		else
-		{
-			System.out.println("The URL is wrong!!!");
-		}
+//		if (actualUrl.equals(expectedUrl))
+//		{
+//			System.out.println("Page Title: " + driver.getTitle());
+//		}
+//		else
+//		{
+//			System.out.println("The URL is wrong!!!");
+//		}
 		
 		//pause execution for 2 seconds
 		Thread.sleep(2000);
 		
 		
 		//4. Quit the browser
-		driver.quit();
+//		driver.quit();
 		
 	}
 
